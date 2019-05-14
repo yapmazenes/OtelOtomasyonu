@@ -1,0 +1,5 @@
+C:\Users\pc\Documents\Visual Studio 2013\Projects\ADO.NET\OtelOtomasyonu\OtelOtomasyonu.ORM\obj\Debug\OtelOtomasyonu.ORM.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2013\Projects\ADO.NET\OtelOtomasyonu\OtelOtomasyonu.ORM\bin\Debug\OtelOtomasyonu.ORM.dll
+C:\Users\pc\Documents\Visual Studio 2013\Projects\ADO.NET\OtelOtomasyonu\OtelOtomasyonu.ORM\bin\Debug\OtelOtomasyonu.ORM.pdb
+C:\Users\pc\Documents\Visual Studio 2013\Projects\ADO.NET\OtelOtomasyonu\OtelOtomasyonu.ORM\obj\Debug\OtelOtomasyonu.ORM.dll
+C:\Users\pc\Documents\Visual Studio 2013\Projects\ADO.NET\OtelOtomasyonu\OtelOtomasyonu.ORM\obj\Debug\OtelOtomasyonu.ORM.pdb

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{205AB21C-8F58-4407-BAB9-12BA2AD5E578}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OtelOtomasyonu.WinFormUI</RootNamespace>
+    <AssemblyName>OtelOtomasyonu.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BirimTipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BirimTipForm.Designer.cs">
+      <DependentUpon>BirimTipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisYapFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisYapFORM.Designer.cs">
+      <DependentUpon>GirisYapFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaForm.Designer.cs">
+      <DependentUpon>KasaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaHareketleriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaHareketleriForm.Designer.cs">
+      <DependentUpon>KasaHareketleriForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaHareketTipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaHareketTipForm.Designer.cs">
+      <DependentUpon>KasaHareketTipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategoriForm.Designer.cs">
+      <DependentUpon>KategoriForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriFORM.Designer.cs">
+      <DependentUpon>MusteriFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdalarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdalarForm.Designer.cs">
+      <DependentUpon>OdalarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdaOzellikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdaOzellikForm.Designer.cs">
+      <DependentUpon>OdaOzellikForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdaTurleriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdaTurleriForm.Designer.cs">
+      <DependentUpon>OdaTurleriForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OzelliklerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OzelliklerForm.Designer.cs">
+      <DependentUpon>OzelliklerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonellerFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonellerFORM.Designer.cs">
+      <DependentUpon>PersonellerFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatisFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisFORM.Designer.cs">
+      <DependentUpon>SatisFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunlerForm.Designer.cs">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BirimTipForm.resx">
+      <DependentUpon>BirimTipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisYapFORM.resx">
+      <DependentUpon>GirisYapFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaForm.resx">
+      <DependentUpon>KasaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaHareketleriForm.resx">
+      <DependentUpon>KasaHareketleriForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaHareketTipForm.resx">
+      <DependentUpon>KasaHareketTipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategoriForm.resx">
+      <DependentUpon>KategoriForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriFORM.resx">
+      <DependentUpon>MusteriFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdalarForm.resx">
+      <DependentUpon>OdalarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdaOzellikForm.resx">
+      <DependentUpon>OdaOzellikForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdaTurleriForm.resx">
+      <DependentUpon>OdaTurleriForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OzelliklerForm.resx">
+      <DependentUpon>OzelliklerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonellerFORM.resx">
+      <DependentUpon>PersonellerFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SatisFORM.resx">
+      <DependentUpon>SatisFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunlerForm.resx">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OtelOtomasyonu.ORM\OtelOtomasyonu.ORM.csproj">
+      <Project>{87a8b704-d8f2-4026-9938-d48e77443cd7}</Project>
+      <Name>OtelOtomasyonu.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
